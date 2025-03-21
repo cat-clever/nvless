@@ -4,8 +4,8 @@
     "description": "nodejs vless",
     "main": "index.js",
     "scripts": {
-        "dev": "node --env-file=.env.local --import tsx src/index.ts",
-        "start": "node --env-file=.env --import tsx src/index.ts"
+        "dev": "node --env-file=.env.example --import tsx src/index.ts",
+        "start": "node --env-file=.env.example --import tsx src/index.ts"
     },
     "repository": {
         "type": "git",
